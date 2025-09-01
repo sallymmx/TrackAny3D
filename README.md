@@ -10,7 +10,7 @@ Please refer to the [Paper](https://arxiv.org/pdf/2507.19908) for more details.
 ## Setup
 ### pretrained model
 
-Download pretrained model [Recon](https://drive.google.com/file/d/1zEc9w5AdeiW55yWVUC4zuEQ2tu0xtJfA/view?usp=drive_link) and place it in the [pretrained/](./pretrained) directory.
+Download pretrained model [Recon](https://drive.google.com/file/d/1zEc9w5AdeiW55yWVUC4zuEQ2tu0xtJfA/view?usp=drive_link) and place it in the `./pretrained` directory.
 
 ### Dependencies
 
