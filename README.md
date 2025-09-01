@@ -8,6 +8,9 @@ In this project, we propose **TrackAny3D**, the first framework that successfull
 Please refer to the [Paper](https://arxiv.org/pdf/2507.19908) for more details.
 
 ## Setup
+### pretrained model
+
+Download pretrained model [Recon](https://drive.google.com/file/d/1zEc9w5AdeiW55yWVUC4zuEQ2tu0xtJfA/view?usp=drive_link) and place it in the [pretrained/](./pretrained) directory.
 
 ### Dependencies
 
@@ -77,6 +80,15 @@ Others can be seen in [Open3DSOT](https://github.com/Ghostish/Open3DSOT)
         Here are some segment.npz files containing tracklet and bbox data
 ```
 
+### Results
+
+
+| Dataset           | Mean                       | Checkpoints               |
+| ----------------- | -------------------------- |-------------------------- |
+| KITTI             | 67.1   / 85.4               |[kitti.ckpt](https://drive.google.com/file/d/1xTwugKP1Iq-wZdmDEdxs5siwHbsCfawI/view?usp=drive_link)                 |
+| NuScenes          | 54.57 / 66.25              |[nuscenes.ckpt  ](https://drive.google.com/file/d/1LTJGjlZR-yOhHV_BHr7TaDIN5j1mgC0k/view?usp=drive_link)                   |
+
+
 ## Quick Start
 ### Training
 
@@ -99,14 +111,14 @@ python main.py configs/trackany_kitti_car_cfg.yaml --phase test --resume_from pr
 
 ## Citation
 If you find TrackAny3D useful, please consider citing: 
-
+```
 @article{wang2025trackany3d,
   title={TrackAny3D: Transferring Pretrained 3D Models for Category-unified 3D Point Cloud Tracking},
   author={Wang, Mengmeng and Wang, Haonan and Li, Yulong and Kong, Xiangjie and Du, Jiaxin and Shen, Guojiang and Xia, Feng},
   journal={Proceedings of the IEEE International Conference on Computer Vision (ICCV)},
   year={2025}
 }
-
+```
 ## Acknowledgement
 This repo is heavily built upon [Open3DSOT](https://github.com/Ghostish/Open3DSOT) , [MBPTrack](https://github.com/slothfulxtx/MBPTrack3D) and [DAPT](https://github.com/LMD0311/DAPT).
 
