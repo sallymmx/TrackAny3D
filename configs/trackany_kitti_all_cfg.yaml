@@ -79,7 +79,7 @@ model_cfg:
 
 # task configs
 task_type: TrackAny
-missing_threshold: 0.0
+missing_threshold: 0.2
 
 # optimizer & scheduler configs
 optimizer_cfg:
